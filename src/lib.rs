@@ -51,6 +51,7 @@ extern crate icalendar;
 #[cfg(feature="server")] extern crate rocket;
 
 #[macro_use] extern crate error_chain;
+#[macro_use] extern crate failure;
 #[macro_use] extern crate log;
 #[macro_use] extern crate prettytable;
 #[macro_use] extern crate lazy_static;
